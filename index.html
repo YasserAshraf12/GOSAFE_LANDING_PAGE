@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GOSAFE</title>
+
+    <!----CSS FILES---->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <!----CSS FILES---->
+
+    <!----Font FILES---->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+    rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+
+    <link href="fonts/css/all.min.css" />
+    <link href="fonts/css/fontawesome.min.css" />
+
+    <!----Font FILES---->
+</head>
+<body>
+    <div class="container-fluid landingPage">
+
+        <!----------------NAVBAR----------------------->
+        <div class="container-fluid nav-container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">GOSAFE</a>
+                    <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#problem">Problem</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!----------------NAVBAR----------------------->
+
+
+        <!--------------------Banner------------------->
+        <div class="container-fluid banner-container">
+            <video autoplay muted loop id="myVideo">
+                <div class="overlay"></div>
+                <source src="images/road.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+
+            <div class="caption">
+                <p>GoSafe is <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                <p>GoSafe extracts information in the blink of an eye</p>
+            </div>
+
+            <div class="arrow bounce">
+                <a class="fa fa-arrow-down fa-2x" href="#"></a>
+            </div>
+            
+        </div>
+
+        <!--------------------Banner------------------->
+
+        <!--------------------Our Problem-------------->
+
+        <div class="container-fluid prb-container" id="problem">
+            <div class="container">
+                <h2 class="section-header">Our Problem</h2>
+                <div class="row section-content">
+                    <div class="col-lg-6 cap-section my-auto">
+                        <p><q>There are numerous types of defects that can form on our roads including deep potholes, shallow potholes, surface deterioration, edge failure, cracking, crazing, rutting, and subsidence. We believe that road deterioration problem is negatively afflicting countries all over the world. Specially in Egypt, road accidents increase significantly because of road surface defects that are widely spread among the entire road network.
+                            Moreover, the traditional manual visual road inspection process is really exhaustive and slows down the road infrastructure maintenance process that is urgently needed to ensure that the requirements for road safety, efficiency and durability are satisfied to save citizens life and to make a nation grow and develop. Road authorities suffer a lot from the considerable time, labour, and cost required for the process of human manual inspection and the action of road repairs due to the lack of road condition information.</q></p>
+                    </div>
+                    <div class="col-lg-6 vid-section">
+                        <img src="images/3.jpg" alt="defect-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--------------------Our Problem-------------->
+
+
+        <!--------------------About-------------->
+        <div class="container-fluid about-container">
+            <div class="container">
+                <h2 class="section-header">About GOSAFE</h2>
+                <div class="row about-section">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 col-xs-12 text-center cap-section">
+                        <h3>GoSafe is autonomous detection, classification, and localization of road defects</h3>
+                        <p>We propose a state-of-the-art, sophisticated, and efficient solution to automate the road inspection and evaluation process overcoming the limitations of the traditional human-based onsite visual inspection.</p>
+                    </div>
+                </div>
+                <h2 class="section-header mt-5">Our Technology</h2>
+                <div class="row about-section-2">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12 text-center cap-section">
+                        <p>Our proposed solution is a computer vision-based system for real-time detection and localization of road surface defects. The system should be attached into a car to automatically collect road defects information and is connected to a cloud database where the image with the detected defect is stored along with its type and precise location. Our main aim is to provide the road authorities with a road damage database which can be accessed and managed easily through our website to alleviate some of the difficulties they face during the road network development boosting the road infrastructure maintenance process.</p>
+                    </div>
+                </div>
+
+                <div class="row videoSection">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 col-xs-12 text-center cap-section">
+                        <video autoplay loop muted id="videoD">
+                            <source src="images/GoSafe.mp4" type="video/mp4">
+                        </video>                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!--------------------About-------------->
+
+        
+        <!--------------------Team-------------->
+        <div class="container-fluid our-team-container">
+            <div class="container">
+                <div class="row clearfix">
+                    <h2 class="section-header">GOSAFE Team</h2>
+                    <!-- Team Block -->
+                    <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-skype"></i></a></li>
+    
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                            <div class="image">
+                                <a href="#"><img src="images/our-team/Yasser.jpg" alt="Yasser Ashraf" /></a>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">Yasser Ashraf </a></h3>
+                                <div class="designation">Web Developer </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Team Block -->
+                    <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-skype"></i></a></li>
+    
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                            <div class="image">
+                                <a href="#"><img src="images/our-team/leena.jpg" alt="Leena Essam" /></a>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">Leena Essam </a></h3>
+                                <div class="designation">Business Developer </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Team Block -->
+                    <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-skype"></i></a></li>
+    
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                            <div class="image">
+                                <a href="#"><img src="images/our-team/LaurenSafwat.jpeg" alt="Lauren Safwat" /></a>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">Lauren Safwat </a></h3>
+                                <div class="designation">Software Engineer </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix pt-3">
+                    <!-- Team Block -->
+                    <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-skype"></i></a></li>
+    
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                            <div class="image">
+                                <a href="#"><img src="images/our-team/mariam.jpg" alt="Mariam Makaram" /></a>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">Mariam Makaram </a></h3>
+                                <div class="designation"> Business Developer</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Team Block -->
+                    <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-skype"></i></a></li>
+    
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                            <div class="image">
+                                <a href="#"><img src="images/our-team/Youssef.jpg" alt="Youssef Ahmed" /></a>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">Youssef Ahmed </a></h3>
+                                <div class="designation">Hardware Developer </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Team Block -->
+                    <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-skype"></i></a></li>
+    
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                            <div class="image">
+                                <a href="#"><img src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Leena Essam" /></a>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">Dr.Ahmed Shawky </a></h3>
+                                <div class="designation">Supervisor </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------------Team-------------->
+
+        <!--------------------Contact-------------->
+        <div class="container-fluid contact-container">
+            <div class="container">
+                <h2 class="section-header">Contact US</h2>
+                <div class="row justify-content-md-center">
+                    <div class="col-lg-12 col-sm-12 col-md-12">
+                        <div class="green-contact-form p-5 bg-white">
+                            <div class="title-form mb-5">
+                                <h3>Get in touch</h3>
+                                <p>We’re very approachable and would love to speak to you. Feel free to call, send us an email, Tweet us or simply complete the enquiry form.</p>
+                            </div>
+                            <div class="form-box">
+                                <h4>Send Us a Message</h4>
+                                    <form>
+                                        <fieldset class="form-group">
+                                            <label for="yourName">Your Name (required)</label>
+                                            <input type="text" class="form-control" id="yourName" placeholder="Enter Your Name" required>
+                                        </fieldset>
+
+                                        <fieldset class="form-group">
+                                            <label for="yourEmail">Email Adressess (required)</label>
+                                            <input type="email" class="form-control" id="yourEmail" placeholder="Enter Your Email" required>
+                                        </fieldset>
+
+                                        <fieldset class="form-group">
+                                            <label for="yourPhone">Telephone number</label>
+                                            <input type="text" class="form-control" id="yourPhone" placeholder="Enter Your Phone">
+                                        </fieldset>
+
+                                        <fieldset class="form-group">
+                                            <label for="yourEmail">Your message (required)</label>
+                                            <textarea class="form-control" rows="6"></textarea>
+                                        </fieldset>
+                                        <button type="submit" class="btn btn-dark" required>SEND MESSAGE</button>
+                                    </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------------Contact-------------->
+
+        <!--------------------Footer-------------->
+        <div class="container-fluid footer-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 upper-cols">
+                        <ul>
+                            <li>Product</li>
+                            <li>Kit Product</li>
+                            <li>Plans&Prices</li>
+                            <li>Frequently asked Questions</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 upper-cols">
+                        <ul>
+                            <li>Company</li>
+                            <li>About Us</li>
+                            <li>Job Postings</li>
+                            <li>News and Articles</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 upper-cols">
+                        <ul>
+                            <li>Contact & Support</li>
+                            <li><i class="fa fa-phone"></i> +02 01550270998</li>
+                            <li><i class="fas fa-comments"></i> Live Chat</li>
+                            <li><i class="fas fa-address-book"></i> Contact Us</li>
+                            <li><i class="fa fa-star"></i> Give a feedback</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 p-5" style="color: #8d8d8d;">
+                        Copyright@GOSAFE2021
+                    </div>
+                    <div class="col-lg-4 pt-5">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 p-5">
+                        <a href="#" style="color: #8d8d8d; text-decoration: none;">Privacy Policy</a> - 
+                        <a href="#" style="color: #8d8d8d; text-decoration: none;">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------------Footer-------------->
+
+    </div>
+
+    <!----JS FILES---->
+    <script src="js/min-js-files/bootstrap.min.js"></script>
+    <script src="js/min-js-files/jquery.min.js"></script>
+    <script src="js/min-js-files/jquery.nicescroll.min.js"></script>
+    <script>$("body").niceScroll();</script>
+    <script src="fonts/js/all.min.js"></script>
+    <script src="fonts/js/fontawesome.min.js"></script>
+    <script src="js/document.js"></script>
+
+    <!----JS FILES---->
+</body>
+</html>
